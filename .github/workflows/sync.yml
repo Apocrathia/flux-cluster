@@ -14,7 +14,7 @@ on:
   workflow_dispatch:  # click the button on Github repo!
 
 jobs:
-  sync_latest_from_upstream:
+  sync:
     runs-on: ubuntu-latest
     name: Sync latest commits from upstream repo
 
