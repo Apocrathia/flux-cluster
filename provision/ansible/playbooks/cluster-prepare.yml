@@ -11,6 +11,8 @@
     - name: Pausing for 5 seconds...
       ansible.builtin.pause:
         seconds: 5
+  roles:
+    - os_hardening
   tasks:
     - name: Locale
       block:
